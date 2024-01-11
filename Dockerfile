@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 COPY requirements.txt .
 
 RUN  pip install --upgrade pip
-RIN pip install matplotlib==3.8.0
+RUN pip install matplotlib==3.8.0
 # Instala las dependencias de la aplicación
 RUN pip install --no-cache-dir -r requirements.txt
 
