@@ -1,4 +1,4 @@
-Flask==2.1.4
+Flask>=2.0.3,<3.0.0
 Flask-SQLAlchemy==2.6.1
 mysql-connector-python==8.0.28
 matplotlib==3.4.3
